@@ -14,7 +14,7 @@ Extracts Arma Reforger credits from credits.conf into Mobygames import format-is
 4. Download the `armareforger2moby.py` file from this repository next to `credits.conf`
 5. Open a console and run `python armareforger2moby.py credits.conf`
 6. Do a little dance 🕺💃 because now you don't have to manually type czech accents/diacritics yourself or make lots of typos
-7. Manually cleanup role titles, maybe add groups
+7. Manually cleanup role titles in `credits.conf_moby_wip.txt`, maybe add groups
 8. The legal notices are in `Arma Reforger\addons\data\data005\Language\localization.en_us.conf` but watch out, at least one has a similar but different string. You have ok CTRL+F skills, as in searching multiple times and then comparing the text using your eyes, right? right.
 
 # Screenshot proof
