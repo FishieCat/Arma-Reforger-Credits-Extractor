@@ -24,6 +24,6 @@ Extracts Arma Reforger credits from credits.conf into Mobygames import format-is
 3. Move these jpgs to a working folder (do not work on the desktop unless you want to fuck up all files in all folders there - you have been warned)
 4. Have [imagemagick](https://imagemagick.org/) installed
 5. Open a bash console in the screenshot working folder
-6. Run `mkdir -p box; for i in *jpg *png; do magick convert $i -gravity east -crop 640x800+0+0 -colors 8 box/$i.png;done
+6. Run `mkdir -p box; for i in *jpg *png; do magick convert $i -gravity east -crop 640x800+0+0 -colors 8 box/$i.png;done`
 7. Now you should have readable-ish, 65ish in number, less than 2MBish in total size, cropped-ish screenshots of the credits area of each screenshot you took in the `box` folder
 8. Ignore the copyright notice at the bottom center, it's included on the last page of the credits—in my version at least
